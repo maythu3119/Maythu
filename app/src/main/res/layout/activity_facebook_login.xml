@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacebookLoginActivity">
+
+    <ImageView
+        android:layout_width="340sp"
+        android:layout_height="100sp"
+        android:layout_margin="50sp"
+        android:src="@drawable/facebook" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone or email"
+        android:id="@+id/emailtxt"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginVertical="10sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/passwordtxt"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginVertical="10sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginVertical="10sp"
+        android:background="#0000FF"
+        android:textColor="#FFFFFF"
+        android:id="@+id/Loginbtn"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textSize="20sp"
+        android:layout_marginVertical="10sp"
+        android:textColor="#3F52B5"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="@drawable/buttondesign"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="...........OR..........."
+        android:layout_margin="35sp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Facebook Account"
+        android:id="@+id/Createbtn"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginVertical="10sp"
+        android:textColor="#FFFFFF"
+        android:background="#34D119"
+        />
+
+
+
+
+</LinearLayout>
